@@ -1,0 +1,13 @@
+name: Create Antora Site
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Generate Site
+      uses: jsqu4re/antora_build@0.1
