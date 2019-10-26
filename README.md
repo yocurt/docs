@@ -1,2 +1,3 @@
-# docs
-Configuration for the antora based documentation
+# Antora Configuration
+
+This repo contains the configuration for the antora based documentation, which is used for yogurt.
