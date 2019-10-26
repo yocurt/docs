@@ -9,6 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
+    - run: git clone https://github.com/yocurt/yogurt.git yogurt
     - name: Generate Site
       uses: jsqu4re/antora_build@0.1.1
     - name: Deploy to GitHub Pages
