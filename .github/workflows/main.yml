@@ -11,6 +11,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Generate Site
       uses: jsqu4re/antora_build@0.1.1
+    - run: touch build/site/.nojekyll
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@2.0.3
       env:
