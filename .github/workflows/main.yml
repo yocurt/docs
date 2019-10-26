@@ -17,5 +17,5 @@ jobs:
         ACCESS_TOKEN: ${{ secrets.GITHUB_TOKEN_PAGES }}
         BASE_BRANCH: master
         BRANCH: gh-pages
-        FOLDER: build/site
+        FOLDER: build
       
