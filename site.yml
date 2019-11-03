@@ -1,7 +1,7 @@
 site:
   title: Yogurt Docs
   # the 404 page and sitemap files only get generated when the url property is set
-  url: https://yocurt.github.io/docs/yogurt/index.html
+  url: https://yocurt.github.io/docs
   start_page: yogurt::index.adoc
 content:
   sources:
