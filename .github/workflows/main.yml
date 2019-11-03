@@ -1,4 +1,4 @@
-name: Create Antora Site & Publish to Github Pages
+name: Publish Antora Site
 
 on: [push]
 
@@ -9,7 +9,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Generate Site
+    - name: Generate Antora Site
       uses: jsqu4re/antora_build@0.1.1
     - name: Deploy to GitHub Pages
       uses: JamesIves/github-pages-deploy-action@2.0.3
