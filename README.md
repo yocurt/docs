@@ -6,6 +6,6 @@ This repo contains the configuration for the antora based documentation, which i
 
 https://github.com/yocurt/yogurt
 
-## TODO
+## Custom UI
 
-- Find way to customize UI components
+https://github.com/yocurt/antora-ui
