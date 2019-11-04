@@ -3,8 +3,6 @@ name: Publish Antora Site
 on:
   push:
     branches: master
-  schedule:
-    - cron:  '*/30 * * * *'
 
 jobs:
   build:
