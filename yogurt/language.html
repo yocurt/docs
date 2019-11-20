@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Language :: Yogurt Docs</title>
+    <link rel="canonical" href="https://yocurt.github.io/docs/yogurt/language.html">
+    <meta name="generator" content="Antora 2.2.0">
+    <link rel="stylesheet" href="../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://yocurt.github.io/docs">Yogurt Docs</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://yocurt.github.io/docs/">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Repositories</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://github.com/yocurt/yogurt-yaml">Yogurt-Yaml</a>
+            <a class="navbar-item" href="https://github.com/yocurt/docs">Docs</a>
+            <a class="navbar-item" href="https://github.com/yocurt/yogurt">Yogurt</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://github.com/yocurt">Github Organisation Yocurt</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="yogurt" data-version="master">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="index.html">Yogurt</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="index.html">Welcome</a>
+  </li>
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="language.html">Language</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="linking.html">Linking</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="vmodel.html">V-Model</a>
+  </li>
+  <li class="nav-item" data-depth="1">
+    <a class="nav-link" href="markdown.html">Markdown</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Yogurt</span>
+    <span class="version">master</span>
+  </div>
+  <ul class="components">
+    <li class="component is-current">
+      <span class="title">Yogurt</span>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="index.html">master</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component">
+      <span class="title">Yogurt Yaml</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../yogurt-yaml/yogurt-yaml/extract_yaml.html">master</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main>
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="index.html">Yogurt</a></li>
+    <li><a href="language.html">Language</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/yocurt/yogurt/edit/master/docs/modules/ROOT/pages/language.adoc">Edit this Page</a></div>
+  </div>
+<article class="doc">
+<h1 class="page">Language</h1>
+<div class="sect1">
+<h2 id="_idreqbase_elements_caption_base_elements"><a class="anchor" href="#_idreqbase_elements_caption_base_elements"></a>ID[REQ::Base_Elements, caption: "Base Elements"]</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>ID[::ID]</p>
+</li>
+<li>
+<p>ID[::REF]</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_idreqhelper_elements_caption_helper_elements"><a class="anchor" href="#_idreqhelper_elements_caption_helper_elements"></a>ID[REQ::Helper_Elements, caption: "Helper Elements"]</h2>
+<div class="sectionbody">
+<div class="ulist">
+<ul>
+<li>
+<p>ID[::ADD]</p>
+</li>
+<li>
+<p>ID[::END]</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_extend_the_base"><a class="anchor" href="#_extend_the_base"></a>Extend the Base</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>It must be possible to perform checks on the created data structure.
+These checks should be executed on ID[::Filename, caption: "file name"]s,
+on ID[::Linking, caption: "linking"]s and ID[::Attribute, caption: "attribute"]s</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_idreqchecks_caption_perform_checks"><a class="anchor" href="#_idreqchecks_caption_perform_checks"></a>ID[REQ::Checks, caption: "Perform Checks"]</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>Define your data structure.</p>
+</div>
+<div class="sect2">
+<h3 id="_files"><a class="anchor" href="#_files"></a>Files</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>ID[FILES::adoc, name: "*.adoc"]</p>
+</li>
+<li>
+<p>ID[FILES::md, name: "*.md"]</p>
+</li>
+<li>
+<p>ID[FILES::markup, name: '$(FILES::md.name) + ", " + $(FILES::adoc.name)'] ???</p>
+</li>
+<li>
+<p>ID[FILES::REQ, name: "docs/RQM*/RQM*.adoc"]</p>
+</li>
+</ul>
+</div>
+<div class="paragraph">
+<p>All requierements must be in the requirements files location:
+REF[REQ, filetype: FILES::REQ]</p>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_linking"><a class="anchor" href="#_linking"></a>Linking</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>ID[LINKS::filetype, to: FILES, revers: idtype]</p>
+</li>
+<li>
+<p>ID[LINKS::mentions]</p>
+</li>
+<li>
+<p>ID[LINKS::parent, revers: child]</p>
+</li>
+</ul>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_attribute"><a class="anchor" href="#_attribute"></a>Attribute</h3>
+<div class="ulist">
+<ul>
+<li>
+<p>ID[ATTRIBUTE::caption, mandatory: true, type: string]</p>
+</li>
+<li>
+<p>ID[ATTRIBUTE::contains, mandatory: false, type: ID]</p>
+</li>
+<li>
+<p>ID[ATTRIBUTE::mandatory, contains: ATTRIBUTE, mandatory: true, type: boolean]</p>
+</li>
+<li>
+<p>ID[ATTRIBUTE::name, contains: FILES, mandatory: true, type: string]</p>
+</li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+</article>
+</main>
+</div>
+<footer class="footer">
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script src="../_/js/site.js"></script>
+<script async src="../_/js/vendor/highlight.js"></script>
+  </body>
+</html>

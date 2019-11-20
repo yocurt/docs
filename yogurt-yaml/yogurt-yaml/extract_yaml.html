@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Extract yaml :: Yogurt Docs</title>
+    <link rel="canonical" href="https://yocurt.github.io/docs/yogurt-yaml/yogurt-yaml/extract_yaml.html">
+    <meta name="generator" content="Antora 2.2.0">
+    <link rel="stylesheet" href="../../_/css/site.css">
+  </head>
+  <body class="article">
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item" href="https://yocurt.github.io/docs">Yogurt Docs</a>
+      <button class="navbar-burger" data-target="topbar-nav">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="https://yocurt.github.io/docs/">Home</a>
+        <div class="navbar-item has-dropdown is-hoverable">
+          <a class="navbar-link" href="#">Repositories</a>
+          <div class="navbar-dropdown">
+            <a class="navbar-item" href="https://github.com/yocurt/yogurt-yaml">Yogurt-Yaml</a>
+            <a class="navbar-item" href="https://github.com/yocurt/docs">Docs</a>
+            <a class="navbar-item" href="https://github.com/yocurt/yogurt">Yogurt</a>
+          </div>
+        </div>
+        <div class="navbar-item">
+          <span class="control">
+            <a class="button is-primary" href="https://github.com/yocurt">Github Organisation Yocurt</a>
+          </span>
+        </div>
+      </div>
+    </div>
+  </nav>
+</header>
+<div class="body">
+<div class="nav-container" data-component="yogurt-yaml" data-version="master">
+  <aside class="nav">
+    <div class="panels">
+<div class="nav-panel-menu is-active" data-panel="menu">
+  <nav class="nav-menu">
+    <h3 class="title"><a href="extract_yaml.html">Yogurt Yaml</a></h3>
+<ul class="nav-list">
+  <li class="nav-item" data-depth="0">
+<ul class="nav-list">
+  <li class="nav-item is-current-page" data-depth="1">
+    <a class="nav-link" href="extract_yaml.html">Extract Yaml</a>
+  </li>
+</ul>
+  </li>
+</ul>
+  </nav>
+</div>
+<div class="nav-panel-explore" data-panel="explore">
+  <div class="context">
+    <span class="title">Yogurt Yaml</span>
+    <span class="version">master</span>
+  </div>
+  <ul class="components">
+    <li class="component">
+      <span class="title">Yogurt</span>
+      <ul class="versions">
+        <li class="version is-latest">
+          <a href="../../yogurt/index.html">master</a>
+        </li>
+      </ul>
+    </li>
+    <li class="component is-current">
+      <span class="title">Yogurt Yaml</span>
+      <ul class="versions">
+        <li class="version is-current is-latest">
+          <a href="extract_yaml.html">master</a>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</div>
+    </div>
+  </aside>
+</div>
+<main>
+<div class="toolbar" role="navigation">
+<button class="nav-toggle"></button>
+  <a href="../../yogurt/index.html" class="home-link"></a>
+<nav class="breadcrumbs" aria-label="breadcrumbs">
+  <ul>
+    <li><a href="extract_yaml.html">Yogurt Yaml</a></li>
+    <li><a href="extract_yaml.html">Extract Yaml</a></li>
+  </ul>
+</nav>
+  <div class="edit-this-page"><a href="https://github.com/yocurt/yogurt-yaml/edit/master/docs/modules/yogurt-yaml/pages/extract_yaml.adoc">Edit this Page</a></div>
+  </div>
+<article class="doc">
+<h1 class="page">Extract yaml</h1>
+<div id="preamble">
+<div class="sectionbody">
+<div class="paragraph">
+<p>ID[REQ::Extract_yaml]</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_from_any_file"><a class="anchor" href="#_from_any_file"></a>From any file</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ID[::read_any_file]</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_alligned_to_yaml_syntax"><a class="anchor" href="#_alligned_to_yaml_syntax"></a>Alligned to yaml syntax</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ID[::syntax]</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_performance"><a class="anchor" href="#_performance"></a>Performance</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ID[::performance, required: optional]</p>
+</div>
+<div class="paragraph">
+<p>It could make sense to have to kinds of syntactical options.</p>
+</div>
+<div class="sect2">
+<h3 id="_bracket"><a class="anchor" href="#_bracket"></a>Bracket</h3>
+<div class="paragraph">
+<p>ID[::performance::syntax_bracket]</p>
+</div>
+<div class="sect3">
+<h4 id="_example_evaluated"><a class="anchor" href="#_example_evaluated"></a>Example evaluated</h4>
+<div class="paragraph">
+<p>All proper yaml is allowed</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>ID#[test, content: [A, "]]]}{[[]}}"]]</code></pre>
+</div>
+</div>
+</div>
+</div>
+<div class="sect2">
+<h3 id="_closure"><a class="anchor" href="#_closure"></a>Closure</h3>
+<div class="paragraph">
+<p>ID[::performance::syntax_closure]</p>
+</div>
+<div class="sect3">
+<h4 id="_example_unevaluated"><a class="anchor" href="#_example_unevaluated"></a>Example unevaluated</h4>
+<div class="paragraph">
+<p>Everything according to yaml, exept the chars '{' and '}' is allowd.</p>
+</div>
+<div class="paragraph">
+<p>Allowed:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>ID#{test, content: [A, "]]]"]}</code></pre>
+</div>
+</div>
+<div class="paragraph">
+<p>Not allowed:</p>
+</div>
+<div class="listingblock">
+<div class="content">
+<pre class="highlightjs highlight"><code>ID#{test, content: [{A: abc}, "{} }"]}</code></pre>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_ignore_comment_tags"><a class="anchor" href="#_ignore_comment_tags"></a>Ignore comment tags</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ID[::multiline_comment]</p>
+</div>
+<div class="paragraph">
+<p>To ignore multiline comments like #, //, /* at the beginning of a line within a ID.</p>
+</div>
+<div class="paragraph">
+<p>(Add to IMPL:)
+This could be done via ignoring the first word before the word before ":".</p>
+</div>
+</div>
+</div>
+<div class="sect1">
+<h2 id="_provide_reasonable_performace"><a class="anchor" href="#_provide_reasonable_performace"></a>Provide reasonable performace</h2>
+<div class="sectionbody">
+<div class="paragraph">
+<p>ID[::benchmarking]</p>
+</div>
+<div class="paragraph">
+<p>To check the performance of the curt tooling provide benchmarks of elementary functions.</p>
+</div>
+<div class="dlist">
+<dl>
+<dt class="hdlist1">Functions</dt>
+<dd>
+<div class="ulist">
+<ul>
+<li>
+<p>cut-yaml</p>
+</li>
+<li>
+<p>cut-yaml-idents</p>
+</li>
+<li>
+<p>&#8230;&#8203;</p>
+</li>
+</ul>
+</div>
+</dd>
+</dl>
+</div>
+</div>
+</div>
+</article>
+</main>
+</div>
+<footer class="footer">
+  <p>The source code for this UI is licensed under the terms of the MPL-2.0 license.</p>
+</footer>
+<script src="../../_/js/site.js"></script>
+<script async src="../../_/js/vendor/highlight.js"></script>
+  </body>
+</html>
