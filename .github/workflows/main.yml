@@ -2,7 +2,7 @@ name: Publish Antora Site
 
 on:
   push:
-    branches: master
+    branches: [master]
 
 jobs:
   build:
@@ -20,4 +20,3 @@ jobs:
         BASE_BRANCH: master
         BRANCH: gh-pages
         FOLDER: build/site
-      
